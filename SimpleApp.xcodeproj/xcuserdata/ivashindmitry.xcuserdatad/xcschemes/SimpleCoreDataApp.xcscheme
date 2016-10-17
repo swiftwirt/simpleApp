@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D037B5151DB3DAC600925887"
-               BuildableName = "SimpleCoreDataApp.app"
-               BlueprintName = "SimpleCoreDataApp"
-               ReferencedContainer = "container:SimpleCoreDataApp.xcodeproj">
+               BuildableName = "SimpleApp.app"
+               BlueprintName = "SimpleApp"
+               ReferencedContainer = "container:SimpleApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D037B5151DB3DAC600925887"
-            BuildableName = "SimpleCoreDataApp.app"
-            BlueprintName = "SimpleCoreDataApp"
-            ReferencedContainer = "container:SimpleCoreDataApp.xcodeproj">
+            BuildableName = "SimpleApp.app"
+            BlueprintName = "SimpleApp"
+            ReferencedContainer = "container:SimpleApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D037B5151DB3DAC600925887"
-            BuildableName = "SimpleCoreDataApp.app"
-            BlueprintName = "SimpleCoreDataApp"
-            ReferencedContainer = "container:SimpleCoreDataApp.xcodeproj">
+            BuildableName = "SimpleApp.app"
+            BlueprintName = "SimpleApp"
+            ReferencedContainer = "container:SimpleApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D037B5151DB3DAC600925887"
-            BuildableName = "SimpleCoreDataApp.app"
-            BlueprintName = "SimpleCoreDataApp"
-            ReferencedContainer = "container:SimpleCoreDataApp.xcodeproj">
+            BuildableName = "SimpleApp.app"
+            BlueprintName = "SimpleApp"
+            ReferencedContainer = "container:SimpleApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

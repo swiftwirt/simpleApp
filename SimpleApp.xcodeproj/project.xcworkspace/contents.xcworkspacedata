@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SimpleCoreDataApp.xcodeproj">
+      location = "self:/Users/ivashindmitry/Desktop/SimpleCoreDataApp/SimpleApp.xcodeproj">
    </FileRef>
 </Workspace>

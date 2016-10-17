@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D037B5161DB3DAC600925887 /* SimpleCoreDataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCoreDataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D037B5161DB3DAC600925887 /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D037B51A1DB3DAC600925887 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D037B51C1DB3DAC600925887 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D037B51D1DB3DAC700925887 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		D037B5171DB3DAC600925887 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D037B5161DB3DAC600925887 /* SimpleCoreDataApp.app */,
+				D037B5161DB3DAC600925887 /* SimpleApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D037B5151DB3DAC600925887 /* SimpleCoreDataApp */ = {
+		D037B5151DB3DAC600925887 /* SimpleApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D037B52D1DB3DAC700925887 /* Build configuration list for PBXNativeTarget "SimpleCoreDataApp" */;
+			buildConfigurationList = D037B52D1DB3DAC700925887 /* Build configuration list for PBXNativeTarget "SimpleApp" */;
 			buildPhases = (
 				D037B5121DB3DAC600925887 /* Sources */,
 				D037B5131DB3DAC600925887 /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = SimpleCoreDataApp;
+			name = SimpleApp;
 			productName = SimpleCoreDataApp;
-			productReference = D037B5161DB3DAC600925887 /* SimpleCoreDataApp.app */;
+			productReference = D037B5161DB3DAC600925887 /* SimpleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D037B5111DB3DAC500925887 /* Build configuration list for PBXProject "SimpleCoreDataApp" */;
+			buildConfigurationList = D037B5111DB3DAC500925887 /* Build configuration list for PBXProject "SimpleApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D037B5151DB3DAC600925887 /* SimpleCoreDataApp */,
+				D037B5151DB3DAC600925887 /* SimpleApp */,
 			);
 		};
 /* End PBXProject section */
@@ -302,7 +302,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D037B5111DB3DAC500925887 /* Build configuration list for PBXProject "SimpleCoreDataApp" */ = {
+		D037B5111DB3DAC500925887 /* Build configuration list for PBXProject "SimpleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D037B52B1DB3DAC700925887 /* Debug */,
@@ -311,13 +311,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D037B52D1DB3DAC700925887 /* Build configuration list for PBXNativeTarget "SimpleCoreDataApp" */ = {
+		D037B52D1DB3DAC700925887 /* Build configuration list for PBXNativeTarget "SimpleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D037B52E1DB3DAC700925887 /* Debug */,
 				D037B52F1DB3DAC700925887 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
