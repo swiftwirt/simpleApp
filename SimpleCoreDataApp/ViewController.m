@@ -11,7 +11,7 @@
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource, EditNoteVCDelegate>
 
-@property NSMutableArray *notesArray;
+@property (nonatomic) NSMutableArray *notesArray;
 
 @end
 
@@ -57,6 +57,17 @@
     [tableView deselectRowAtIndexPath:indexPath animated:true];
 }
 
+-(NSArray<UITableViewRowAction *> *)tableView:(UITableView *)tableView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewRowAction *deleteButton = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDefault title:@"Remove" handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
+        NSArray *indexPaths = [NSArray arrayWithObject:indexPath];
+        [self.notesArray removeObjectAtIndex:indexPath.row];
+        [self.tableView deleteRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationAutomatic];
+    }];
+    deleteButton.backgroundColor = [UIColor orangeColor];
+    NSArray *actions = [NSArray arrayWithObject:deleteButton];
+    return actions;
+}
+
 //MARK: - segue
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
@@ -97,7 +108,7 @@
         NSString *note = [NSString stringWithFormat:@"%@", field.text];
         [self.notesArray addObject:note];
         [self.tableView reloadData];
-        NSLog(@"*****%@", [_notesArray description]);
+        NSLog(@"*****Note: '%@' added", [note description]);
     }]];
     [alert addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleDefault handler:nil]];
     

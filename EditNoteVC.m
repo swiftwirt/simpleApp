@@ -17,10 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.textField.text = self.note;
+    [self.textField becomeFirstResponder];
 }
 
 - (IBAction)cancelBtn:(id)sender {
-    [self.delegate userDidCancelEditNote:self note:_textField.text];
+    [self.delegate userDidCancelEditNote:self note:
+      self.note];
 }
 
 - (IBAction)doneBtn:(id)sender {
